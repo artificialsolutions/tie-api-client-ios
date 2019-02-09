@@ -37,7 +37,7 @@ TieApiService.sharedInstance.sendInput({MESSAGE},
 ```swift
 TieApiService.sharedInstance.closeSession({ response in
 	// Handle response. Remember to dispatch to main thread if updating UI
-}, failure { error in
+}, failure: { error in
 	// Handle error
 })
 ```
