@@ -39,7 +39,6 @@ class TieApiSendInputTests: XCTestCase {
         }
         let splitted = bodyStr.split(separator: "&")
         XCTAssert(splitted.count == 3)
-        XCTAssert(splitted.contains("viewname=tieapi"))
         XCTAssert(splitted.contains("viewtype=tieapi"))
         XCTAssert(splitted.contains("userinput=My%20name%20is%20Luke%20Skywalker"))
     }
