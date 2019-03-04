@@ -9,7 +9,6 @@ import Foundation
 
 struct ApiConstants {
     static let apiViewType = "tieapi"
-    static let apiViewName = "tieapi"
     static let cookiePrefix = "JSESSIONID="
 }
 

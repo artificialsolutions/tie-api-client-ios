@@ -99,7 +99,6 @@ public class TieApiService: NSObject {
 
         let defaultParams: [String: String] = [
             "viewtype": ApiConstants.apiViewType,
-            "viewname": ApiConstants.apiViewName,
             "userinput": message
         ]
 
