@@ -8,6 +8,7 @@ DerivedData/
 
 ## Various settings
 *.pbxuser
+project.pbxproje
 !default.pbxuser
 *.mode1v3
 !default.mode1v3
@@ -16,6 +17,7 @@ DerivedData/
 *.perspectivev3
 !default.perspectivev3
 xcuserdata/
+xcschemes/
 
 ## Other
 *.moved-aside
@@ -76,3 +78,6 @@ fastlane/test_output
 # https://github.com/johnno1962/injectionforxcode
 
 iOSInjectionProject/
+TieExample/Pods
+TieExampleObjC/Pods
+Podfile.lock

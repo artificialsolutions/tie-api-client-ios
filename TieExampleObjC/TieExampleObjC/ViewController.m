@@ -25,6 +25,11 @@
     NSError *error = [NSError new];
     
     // NOTE: Replace with correct base url and endpoint
+    // the base url, including https://
+    NSString *BASE_URL = @"replace_with_base_url_of_teneo_engine";
+    // engine path, like /solution_0x383bjp5a8e6tscbjd9x03tvb/ note: make sure it ends with a slash (/)
+    NSString *ENDPOINT = @"replace_with_path_of_teneo_engine";
+    
     [TieApiService.sharedInstance setup:BASE_URL endpoint:ENDPOINT error:&error];
     }
 

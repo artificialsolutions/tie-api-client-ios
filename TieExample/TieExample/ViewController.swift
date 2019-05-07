@@ -20,7 +20,11 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        // NOTE: Replace with correct base url and endpoint
+        // the base url, including https://
+        let BASE_URL = "replace_with_base_url_of_teneo_engine";
+        // engine path, like /solution_0x383bjp5a8e6tscbjd9x03tvb/ note: make sure it ends with a slash (/)
+        let ENDPOINT = "replace_with_path_of_teneo_engine";
+
         try? TieApiService.sharedInstance.setup(BASE_URL, endpoint: ENDPOINT)
     }
 

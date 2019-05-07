@@ -62,7 +62,7 @@ class ResponseParsingTests: XCTestCase {
 
         for response in validResponses {
             let resp = try? decoder.decode(TieResponse.self, from: response.data(using: .utf8)!)
-            XCTAssert(resp != nil, "Parsing of \(resp) failed")
+            XCTAssert(resp != nil, "Parsing of \(String(describing: resp)) failed")
         }
     }
 
@@ -104,7 +104,7 @@ class ResponseParsingTests: XCTestCase {
 
         for response in invalidResponses {
             let resp = try? decoder.decode(TieResponse.self, from: response.data(using: .utf8)!)
-            XCTAssert(resp == nil, "Parsing of invalid response '\(resp)' succeeded")
+            XCTAssert(resp == nil, "Parsing of invalid response '\(String(describing: resp))' succeeded")
         }
     }
 }
