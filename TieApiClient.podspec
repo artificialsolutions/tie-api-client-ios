@@ -37,7 +37,7 @@ Pod::Spec.new do |s|
   s.license      = { :type => "Apache License, Version 2.0", :file => "LICENSE" }
   s.author       = "Artificial Solutions"
 
-  s.swift_version = "5.0"
+  s.swift_version = "5"
   s.ios.deployment_target = "11.0"
 
   s.source       = { :git => "https://github.com/artificialsolutions/tie-api-client-ios.git", :tag => "#{s.version}" }
