@@ -4,9 +4,9 @@ This library provides a way of communicating with a Teneo Engine server instance
 
 ## Requirements
 
-- iOS 9.0+
+- iOS 11.0+
 - Xcode 10.0+
-- Swift 4.2+
+- Swift 5.0+
 
 ## Basic Use
 
@@ -53,7 +53,7 @@ TieApiService.sharedInstance.closeSession({ response in
 $ gem install cocoapods
 ```
 
-> CocoaPods 1.5+ is required to build TieApiClient 0.0.1+.
+> CocoaPods 1.5+ is required to build TieApiClient 1.0.0+.
 
 To integrate TieApiClient into your Xcode project using CocoaPods, specify it in your `Podfile`:
 
