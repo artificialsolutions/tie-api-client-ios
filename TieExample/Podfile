@@ -6,6 +6,6 @@ target 'TieExample' do
   use_frameworks!
 
   # Pods for TieExample
-  pod 'TieApiClient', '~> 1.1.0'
+  pod 'TieApiClient', '~> 1.1.1'
 
 end
