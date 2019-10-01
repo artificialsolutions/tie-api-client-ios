@@ -82,3 +82,7 @@ TieExample/Pods
 TieExampleObjC/Pods
 Podfile.lock
 TieApiClient.xcodeproj/project.xcworkspace/contents.xcworkspacedata
+TieExample/TieExample.xcworkspace/contents.xcworkspacedata
+TieExample/TieExample.xcworkspace/xcshareddata/IDEWorkspaceChecks.plist
+TieExampleObjC/TieExampleObjC.xcworkspace/contents.xcworkspacedata
+TieExampleObjC/TieExampleObjC.xcworkspace/xcshareddata/IDEWorkspaceChecks.plist

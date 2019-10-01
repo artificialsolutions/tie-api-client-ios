@@ -195,7 +195,7 @@
 			inputFileListPaths = (
 			);
 			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-TieExampleObjC/Pods-TieExampleObjC-frameworks.sh",
+				"${PODS_ROOT}/Target Support Files/Pods-TieExampleObjC/Pods-TieExampleObjC-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/TieApiClient/TieApiClient.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
@@ -206,7 +206,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TieExampleObjC/Pods-TieExampleObjC-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TieExampleObjC/Pods-TieExampleObjC-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
