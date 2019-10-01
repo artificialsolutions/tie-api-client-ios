@@ -125,7 +125,7 @@
 		8D82DFBB2164AD5E0057D5AA /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0940;
+				LastUpgradeCheck = 1100;
 				ORGANIZATIONNAME = "Artificial Solutions";
 				TargetAttributes = {
 					8D82DFC22164AD5E0057D5AA = {
@@ -358,6 +358,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 4B9B724FF4B1CCADDAE2C2AA /* Pods-TieExampleObjC.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = "";
@@ -377,6 +378,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = C5769BF2DD3EA4BBAAF882EE /* Pods-TieExampleObjC.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = "";
