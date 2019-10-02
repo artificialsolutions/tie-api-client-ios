@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "TieApiClient"
-  s.version      = "1.1.1"
+  s.version      = "1.1.2"
   s.summary      = "Provides a way of communicating with a Teneo Engine server instance"
   s.description  = <<-DESC
                   Provides a way of communicating with a Teneo Engine server instance
