@@ -4,8 +4,8 @@ This library provides a way of communicating with a Teneo Engine server instance
 
 ## Requirements
 
-- iOS 11.0+
-- Xcode 10.0+
+- iOS 12.0+
+- Xcode 11.0+
 - Swift 5.0+
 
 ## Basic Use
